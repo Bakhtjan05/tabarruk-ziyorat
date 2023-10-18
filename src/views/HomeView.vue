@@ -1,12 +1,16 @@
 <template>
-  <div class="main-box">
+  <div class="main-box relative">
     <Header/>
     <Hero/>
+    <AboutUs/>
+    <Countries/>
   </div>
 </template>
 <script setup lang="ts">
 import Header from "@/components/Header.vue"
 import Hero from "@/components/Hero.vue"
+import AboutUs from "@/components/AboutUs.vue";
+import Countries from "@/components/Countries.vue";
 </script>
 
 <style scoped>
@@ -18,7 +22,7 @@ import Hero from "@/components/Hero.vue"
        url(../assets/images/main-page-photo.png);
       background-repeat: no-repeat;
       background-size: cover;
-      
+      background-position: center
 ;
       
     }
